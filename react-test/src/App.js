@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+console.log(1/0 )
+console.log(Object.is(0,0));
 function App() {
   return (
     <div className="App">
