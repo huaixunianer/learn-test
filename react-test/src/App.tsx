@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Dome from './antvL7'
 console.log(1/0)
 console.log(Object.is(0,0));
 console.log('————————————————————————————————————————————————');
@@ -69,23 +70,13 @@ let sam = new Snake('Sammy the Python')
 let tom = new Horse('Tommy the Palomino')
 sam.move()
 tom.move(34)
+
 // ————————————————————————————————————————————————
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Dome></Dome>
       </header>
     </div>
   );

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@/*":["./src/*"],
+        "@@/*": ["./src/.umi/*"] // 解决 umi 找不到部分模块的问题
+      },
+      "target": "esnext",
+      "module": "esnext",
+      "strict": false,
+      "jsx": "preserve",
+      "moduleResolution": "node",
+      "useDefineForClassFields": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "lib": ["esnext", "dom"],
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"]
+  }
